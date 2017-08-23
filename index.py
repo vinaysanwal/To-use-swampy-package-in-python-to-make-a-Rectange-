@@ -10,3 +10,10 @@ for i in range(4):
 	lt(bob)
 
 wait_for_user()
+
+def square(t):
+	for i in range(4):
+		fd(t, 100)
+		lt(t)
+
+square(bob)
